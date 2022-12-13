@@ -9,6 +9,7 @@ def main():
     data = read_file("BRCA.csv")
     data = remove_null(data)
     print_data(data)
+    tumor_stage_figure(data)
 
     int_data = int_key(data)
 
